@@ -1,0 +1,2 @@
+# Adding a value to the end of a item in a list
+patterns: "{{ inventory_names | map(\"regex_replace\", \"$\", \".conf\") | list }}"
